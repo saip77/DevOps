@@ -1,7 +1,8 @@
 ### What is DevOps?
 
-DevOps is a set of practices that aims to improve the speed and quality of software delivery.
-It is a culture of collaboration and communication between the development and operations teams.
+It is a practice that combines software development (Dev) and information technology operations (Ops) to shorten the systems development life cycle and provide continuous feedback to the development team. 
+
+It is a culmination of several practices that includes continuous integration, continuous delivery, and continuous deployment.
 
 ### Why DevOps?
 
