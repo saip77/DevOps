@@ -11,3 +11,7 @@ It is a culmination of several practices that includes continuous integration, c
 - Better security
 - Better cost management
 
+
+### What is Continuous Integration?
+
+Continuous Integration is a software development practice where members of a team integrate their work frequently, usually each day. The work is integrated at the point where it can be tested. The goal is to identify and fix problems early in the development process, so they can be fixed before the software is released to users.
