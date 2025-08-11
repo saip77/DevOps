@@ -1,78 +1,91 @@
-# 🔥 Complete Linux for DevOps: 7-Phase Mastery Plan
+# 🔥 Complete Linux for DevOps: 10-Phase Mastery Plan 
 
-## 🧩 Phase 1: Linux Fundamentals & Terminal Basics
-**Goal:** Build a solid foundation in Linux concepts and get comfortable with essential command-line operations.
-
-### ✅ Topics:
-*   What is Linux? Why use Linux for DevOps?
-*   Linux vs Unix, and open-source philosophy
-*   Linux architecture: Kernel, Shell, Userspace
-*   Linux distributions (Ubuntu, CentOS, RHEL, etc.)
-*   The Linux boot process overview
-*   `init` vs `systemd`
-*   Terminal vs Shell
-*   Bash and other shells (zsh, fish, etc.)
-*   Basic navigation: `pwd`, `ls`, `cd`, `mkdir`, `touch`, `echo`, `clear`
-*   Viewing files: `cat`, `less`, `more`, `head`, `tail`
-*   Getting help: `man`, `--help`
-
-## 🧩 Phase 2: File System & Directory Management
-**Goal:** Understand the Linux filesystem hierarchy and master fundamental file and directory manipulation.
+## 🧩 Phase 1: Linux Core Concepts 🧠
+**Goal:** Understand the "what" and "why" of Linux, focusing on its foundational architecture and principles.
 
 ### ✅ Topics:
-*   Filesystem Hierarchy Standard (FHS): `/bin`, `/etc`, `/usr`, `/var`, `/home`, `/root`, `/dev`, `/proc`, `/tmp`
-*   File types: regular, directories, symlinks, sockets, devices
-*   File operations: `cp`, `mv`, `rm`, `rmdir`
-*   Directory management
-*   Hard links vs Soft (symbolic) links: `ln`, `ln -s`
-*   Viewing and comparing file content: `diff`, `tr`, `cut`
-*   Performing actions on multiple files (wildcards)
+*   What is Linux? Why is it crucial for DevOps?
+*   Linux vs. Unix and the open-source philosophy.
+*   Linux architecture: Kernel, Shell, and Userspace.
+*   Key Linux distributions (Ubuntu, CentOS, RHEL).
 
-## 🧩 Phase 3: Users, Groups & Permissions
-**Goal:** Learn how Linux manages users and permissions, a critical skill for system administration and security.
+## 🧩 Phase 2: Terminal & Shell Essentials 💻
+**Goal:** Get comfortable with the command-line interface and master the most fundamental commands for navigation and file viewing.
 
 ### ✅ Topics:
-*   User and group concepts
-*   Managing users: `useradd`, `userdel`, `passwd`, `id`, `whoami`, `getent`
-*   File permissions and ownership: `chmod`, `chown`, `chgrp`, `umask`
-*   Running commands as root: `sudo`
+*   Terminal vs. Shell and the Bash shell.
+*   Basic navigation: `pwd`, `ls`, `cd`, `mkdir`.
+*   Viewing file contents: `cat`, `less`, `more`, `head`, `tail`.
+*   Getting help: `man` pages and the `--help` flag.
 
-## 🧩 Phase 4: Advanced Searching & Text Processing
+## 🧩 Phase 3: File System Structure & Management 📂
+**Goal:** Learn the Linux filesystem hierarchy and how to create, copy, and move files and directories.
+
+### ✅ Topics:
+*   Filesystem Hierarchy Standard (FHS): `/bin`, `/etc`, `/usr`, `/var`, etc.
+*   File creation and manipulation: `touch`, `echo`, `clear`.
+*   Copying and moving files: `cp`, `mv`.
+*   File types: regular files, directories, symlinks.
+
+## 🧩 Phase 4: Advanced File Operations 🔨
+**Goal:** Master more complex file management tasks, including linking files and performing batch operations.
+
+### ✅ Topics:
+*   Deleting files and directories: `rm`, `rmdir`.
+*   Hard links vs. soft (symbolic) links: `ln`, `ln -s`.
+*   Performing actions on multiple files (wildcards).
+*   Viewing and comparing file content: `diff`, `tr`, `cut`.
+
+## 🧩 Phase 5: User & Permission Management 🔑
+**Goal:** Understand how Linux manages users, groups, and file permissions—a critical skill for security.
+
+### ✅ Topics:
+*   User and group concepts (root, sudo).
+*   Managing users: `useradd`, `userdel`, `passwd`, `id`.
+*   File permissions and ownership: `chmod`, `chown`, `chgrp`.
+*   Running commands as root: `sudo`.
+
+## 🧩 Phase 6: Advanced Searching & Text Processing 🔎
 **Goal:** Become proficient in using powerful command-line tools to search for files and manipulate text data.
 
 ### ✅ Topics:
-*   Recursive listing and file search: `ls -R`, `find`, `locate`
-*   Regular expressions (basic syntax)
-*   `grep` and `egrep` for text pattern matching
-*   `sed` and `awk` basics for stream editing and text processing
-*   Shell operators: `|`, `>`, `>>`
+*   File searching: `find`, `locate`.
+*   Text pattern matching with `grep` and `egrep`.
+*   Introduction to `sed` and `awk` for stream editing.
+*   Shell operators: `|`, `>`, `>>`.
 
-## 🧩 Phase 5: Processes, System Monitoring & Networking
-**Goal:** Learn to monitor system health, manage processes, and understand basic network interactions.
-
-### ✅ Topics:
-*   Processes and jobs: `ps`, `top`, `htop`, `kill`, `killall`, `jobs`, `bg`, `fg`
-*   System monitoring: `uptime`, `vmstat`, `free`, `df`, `du`, `lsof`
-*   Downloading and networking tools: `wget`, `curl`, `ping`, `host`, `nslookup`, `dig`
-*   Interface management: `ifconfig` / `ip`, `hostname`, `netstat`, `ss`
-*   Archive and compression: `tar`, `gzip`, `zip`
-
-## 🧩 Phase 6: System Services, Storage & Scripting Basics
-**Goal:** Delve into managing system services, understanding storage, and writing simple scripts to automate tasks.
+## 🧩 Phase 7: Processes & System Monitoring 📈
+**Goal:** Learn how to monitor a running system, manage processes, and check system resources.
 
 ### ✅ Topics:
-*   `systemd` basics: `systemctl`, `service`, `journalctl`
-*   Enable, disable, start, stop services
-*   Scheduled tasks: `crontab`, `at`
-*   File systems: `mount`, `umount`, `fstab`, `lsblk`, `df`
-*   Bash scripting basics: variables, conditionals, loops, functions
+*   Managing processes: `ps`, `top`, `htop`, `kill`.
+*   System resource monitoring: `uptime`, `free`, `df`, `du`, `lsof`.
+*   Archive and compression: `tar`, `gzip`, `zip`.
+*   Basic process scheduling: `nice`, `renice`.
 
-## 🧩 Phase 7: Package Management, Security & Troubleshooting
-**Goal:** Master the tools for software installation, secure remote access, and develop practical troubleshooting skills.
+## 🧩 Phase 8: System Services & Scheduled Tasks ⏱️
+**Goal:** Learn how to manage system services and automate tasks that run on a schedule.
 
 ### ✅ Topics:
-*   Package managers: `yum`, `dnf`, `rpm` (RHEL/CentOS)
-*   Package managers: `apt`, `dpkg` (Debian/Ubuntu)
-*   SSH and SCP: secure access, key-based login, copying files
-*   IPTables basics: allow/deny ports, services, IPs
-*   Troubleshooting scenarios: diagnosing service failures, checking logs, analyzing issues
+*   `systemd` basics: `systemctl`, `service`, `journalctl`.
+*   Enabling, starting, and stopping services.
+*   Scheduled tasks: `crontab`, `at`.
+*   System initialization: `init` vs. `systemd`.
+
+## 🧩 Phase 9: Storage & Package Management 📦
+**Goal:** Understand how to manage storage devices and install/update software on different Linux systems.
+
+### ✅ Topics:
+*   Package managers: `yum`, `dnf`, `rpm` (RHEL/CentOS).
+*   Package managers: `apt`, `dpkg` (Debian/Ubuntu).
+*   File systems: `mount`, `umount`, `fstab`, `lsblk`.
+*   Introduction to LVM (Logical Volume Manager).
+
+## 🧩 Phase 10: Security & Networking 🛡️
+**Goal:** Master the tools for secure remote access and basic firewall configuration.
+
+### ✅ Topics:
+*   Secure remote access: `SSH` and `SCP`.
+*   Networking tools: `ping`, `host`, `dig`, `netstat`.
+*   Firewall basics: `iptables`, `firewalld`.
+*   Diagnosing network issues.
