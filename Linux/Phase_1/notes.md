@@ -32,3 +32,12 @@ The package manager is an essential component of the Linux operating system, as 
 Linux services are background processes that run on the system and perform specific tasks.
 They are typically managed by the system administrator and can be started and stopped as needed.
 Examples of Linux services include the Apache web server, the SSH server, and the MySQL database server.
+
+### Linux User
+A Linux user is a person who uses the Linux operating system.
+They have a unique username and password that is used to log in to the system.
+Linux users can have different levels of access, including administrator, regular user, and guest.
+
+### Linux Virtual Machine
+A Linux virtual machine (VM) is a software emulation of a physical computer.
+It allows multiple operating systems to run on a single physical machine.   
