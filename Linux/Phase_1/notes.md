@@ -40,4 +40,4 @@ Linux users can have different levels of access, including administrator, regula
 
 ### Linux Virtual Machine
 A Linux virtual machine (VM) is a software emulation of a physical computer.
-It allows multiple operating systems to run on a single physical machine.   
+It allows multiple operating systems to run on a single physical machine.       
