@@ -41,3 +41,16 @@ Linux users can have different levels of access, including administrator, regula
 ### Linux Virtual Machine
 A Linux virtual machine (VM) is a software emulation of a physical computer.
 It allows multiple operating systems to run on a single physical machine.       
+
+### Understanding Linux Virtual Machines
+Linux virtual machines (VMs) are software emulations of a physical computer.
+They allow multiple operating systems to run on a single physical machine.
+Linux VMs are typically used for development and testing purposes, as they provide a controlled environment for testing and debugging software.
+
+### Linux VM Types
+There are several types of Linux VMs, including:
+
+-   Full virtual machines (VMs): These are the most common type of Linux VM. They provide a complete operating system environment, including the kernel, shell, and applications.
+-   Lightweight virtual machines (LVMs): These are similar to full VMs, but they are designed to be lightweight and run on resource-constrained systems.
+-   Container virtual machines (CVMs): These are similar to full VMs, but they are designed to be lightweight and run on resource-constrained systems.
+-   Hypervisor-based virtual machines (HVMs): These are similar to full VMs, but they are designed to be lightweight and run on resource-constrained systems.
