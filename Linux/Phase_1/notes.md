@@ -54,3 +54,11 @@ There are several types of Linux VMs, including:
 -   Lightweight virtual machines (LVMs): These are similar to full VMs, but they are designed to be lightweight and run on resource-constrained systems.
 -   Container virtual machines (CVMs): These are similar to full VMs, but they are designed to be lightweight and run on resource-constrained systems.
 -   Hypervisor-based virtual machines (HVMs): These are similar to full VMs, but they are designed to be lightweight and run on resource-constrained systems.
+
+### What is Unix?
+Unix is a family of operating systems that are based on the Unix kernel.
+It is a Unix-like operating system that is used by many different types of computers.
+
+### Understanding Unix
+Unix is a family of operating systems that are based on the Unix kernel.
+It is a Unix-like operating system that is used by many different types of computers.
