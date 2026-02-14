@@ -1,0 +1,62 @@
+# YAML Overview Example File
+
+basic_key_value_pairs:
+  syntax: "username: alice"
+  extensions:
+    - .config.yaml
+    - .settings.yml
+
+data_types:
+  strings:
+    unquoted: city: Paris
+    double_quoted: 'city: "New York"'
+    single_quoted: "city: 'Tokyo'"
+  
+  numbers:
+    integer_example:
+      established_year: 1998
+  
+  booleans:
+    standard: false
+    alternatives:
+      - yes
+      - no
+      - on
+      - off
+
+multi_line_strings:
+  folded_style:
+    description: >
+      This configuration file
+      demonstrates how folded style
+      converts line breaks into spaces.
+  
+  literal_style:
+    script: |
+      echo "Starting application"
+      echo "Application running"
+
+lists:
+  block_style:
+    programming_languages:
+      - Python
+      - Go
+      - Rust
+  
+  flow_style:
+    programming_languages: [JavaScript, TypeScript, Kotlin]
+
+dictionaries:
+  project_team:
+    manager: Sarah Connor
+    lead_developer: David Kim
+
+complex_structures:
+  employees:
+    - name: Alice Johnson
+      role: Backend Developer
+    - name: Mark Thompson
+      role: DevOps Engineer
+
+comments:
+  example: "# Configuration for staging environment"
