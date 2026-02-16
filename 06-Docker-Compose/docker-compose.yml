@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: frontend.Dockerfile
+    ports:
+      - "5001:80"
+    volumes:
+      - ./frontend/index.html:/usr/share/nginx/html/index.html
+  backend:
+    build:
+      context: ./backend
+      dockerfile: backend.Dockerfile
+    ports:  
+      - "5000:5000"
+    
